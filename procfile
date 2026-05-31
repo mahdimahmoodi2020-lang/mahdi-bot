@@ -1,1 +1,1 @@
-worker: python mahdi_bot.py
+worker: Python mahdi_bot.py
