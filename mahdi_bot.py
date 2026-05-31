@@ -20,7 +20,9 @@ from telegram.ext import (
 
 # ==================== تنظیمات ====================
 import os
-BOT_TOKEN = os.environ.get("BOT_TOKEN")  # ← توکن جدید از BotFather را اینجا بگذار
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
+if not BOT_TOKEN:
+    raise ValueError("BOT_TOKEN not set!")  # ← توکن جدید از BotFather را اینجا بگذار
 BOT_NAME = "مهدی"
 
 logging.basicConfig(
