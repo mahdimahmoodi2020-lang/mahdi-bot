@@ -4,7 +4,7 @@ from datetime import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
-BOT_TOKEN = "TOKEN_INJA"  # توکنت را اینجا بگذار
+BOT_TOKEN = "7949558988:AAFf8xnn4Q9bXbq01t4jdn7jw4zvMsPVaY0"  # توکنت را اینجا بگذار
 
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
 
